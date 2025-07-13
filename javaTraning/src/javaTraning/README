@@ -1,0 +1,20 @@
+normal method needs object of class to call 
+ static method doesn't need object of class to call 
+
+super.()  calling patent constructor
+super.variable calling parent variable ;
+kisibhi constructor ki peheli line uska parent class ka constructor hoga
+ final class can not be extended
+ finally is a block always associated with exception handling or try catch block , always execute when system.exit finally will not excute
+ finally purpose : cleanup activity code , deallocation , resourse deallocation code
+ serialization , explicitly calling garbeg collector
+ finalize()  obejct class method finilize() The finalize() method is a protected method defined in the java.lang.Object class. finalize() is called by the Garbage Collector (GC) just before an object is removed from memory.
+ finalize() will get called only one time , finalize() always associated with object 
+
+ heap memory objects are eligible for grabge collector
+ scp(string constraints pool) memory object are not eligible for grabge collector because jvm automatically provides reference 
+
+ 
+ in java if class has a static method it can be called directly using class 
+ like thread class has sleep method called thread.sleep();
+ if we are using object of that class then the method will not be static like scanner class has nextInt();
